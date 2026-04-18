@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "sysinfo": {
+      "command": "python",
+      "args": ["/absolute/path/to/sysinfo-mcp-server/server.py"],
+      "env": {}
+    }
+  }
+}
+
+// Windows example:
+// "args": ["C:/Users/YourName/sysinfo-mcp-server/server.py"]
+
+// macOS/Linux example:
+// "args": ["/home/yourname/sysinfo-mcp-server/server.py"]
